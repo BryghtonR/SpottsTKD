@@ -1,0 +1,162 @@
+html body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: "Exo", sans-serif, serif;
+  font-weight: bolder;
+}
+
+.header {
+  height: 20px;
+  background-color: black;
+}
+/*main body*/
+.jumbotron {
+  background: url('img/brickwall.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/*MenuBar*/
+.dropdown {
+  color:black;
+  margin-top: 10px;
+}
+.dropdown a:link , .dropdown a:hover, .dropdown a, .dropdown a:visited {
+  text-decoration: none;
+  color: white;
+}
+.dropdown-menu li, .dropdown-menu{
+  background-color: rgba(0,0,0,.5);
+}
+.logoBar {
+  background: grey; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, grey, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, grey, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(black, grey, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, grey, black); /* Standard syntax */
+  height: 40px;
+  text-align: center;
+}
+.logoBar img {
+  margin-top: -30px;
+}
+
+/*body links*/
+.links {
+  padding-top: 80px;
+}
+.links .col-sm-4{
+  padding-bottom: 40px;
+}
+.borderBox {
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(0,0,0, 0.7);
+}
+.links .title {
+  text-align: center;
+  height: 40px;
+  font-size: 20px;
+  padding: 8px;
+}
+.links img {
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px;
+}
+.description {
+  color: black;
+  font-family: arial;
+  font-weight: bold;
+  background: white; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, white, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, white, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(black, white, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, white, black); /* Standard syntax */
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  height: 200px;
+  padding: 10px;
+  height: 200px;
+  line-height: 160px;
+  vertical-align: middle;
+}
+.description span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 18px;
+}
+.clickHere {
+  text-align: center;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, black); /* Standard syntax */
+  height: 40px;
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 10px;
+}
+.clickHere a:active, .clickHere a:hover, .clickHere a:link, .clickHere a:visited{
+  text-decoration: none;
+  color:white;
+}
+.clickHere a:hover {
+  font-size:21px;
+
+/*Join Now*/
+}
+.joinContainer{
+  padding-bottom: 80px;
+}
+
+.joinNow {
+  background: green; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, green, black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, green, black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(black, green, black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, green, black); /* Standard syntax */
+  font-size: 40px;
+  text-align: center;
+  background-color: green;
+  border: white solid 3px;
+  border-radius: 20px;;
+  width: 400px;
+  margin: auto;
+}
+
+.joinContainer a, .joinContainer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/*footer*/
+.footer {
+  height: 200px;
+  background-color: black;
+  margin-bottom: -100px;
+}
+
+/* facebook tab */
+.facebook {
+  padding: 80px;
+}
+.facebookInfo, .facebookIframe{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 30px;
+  height: 500px;
+}
+
+/* contact page */
