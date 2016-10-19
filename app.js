@@ -5,24 +5,21 @@ app.config(function($routeProvider){
   .when("/home", {
     controller: "myCtrl",
     templateUrl: "views/home.html"
-  }).when("/aboutTKD", {
-    controller: "myCtrl",
-    templateUrl: "views/aboutTKD.html"
   }).when("/aboutUs", {
     controller: "myCtrl",
     templateUrl: "views/aboutUs.html"
-  }).when("/classes", {
+  }).when("/contactInfo", {
     controller: "myCtrl",
-    templateUrl: "views/classes.html"
-  }).when("/contact", {
+    templateUrl: "views/contactInfo.html"
+  }).when("/getStarted", {
     controller: "myCtrl",
-    templateUrl: "views/contact.html"
-  }).when("/FAQ", {
-    controller: "myCtrl",
-    templateUrl: "views/FAQ.html"
+    templateUrl: "views/getStarted.html"
   }).when("/socialMedia", {
     controller: "myCtrl",
     templateUrl: "views/socialMedia.html"
+  }).when("/studentInfo", {
+    controller: "myCtrl",
+    templateUrl: "views/studentInfo.html"
   }).otherwise({
     redirectTo: "/home"
   });

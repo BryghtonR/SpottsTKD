@@ -1,58 +1,25 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <title>Spotts TKD</title>
-  <!-- Exo font -->
-  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-  <!-- CSS -->
-  <link rel="stylesheet"  type="text/css"  href="style.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <head>
+    <title>Spotts TKD</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet"  type="text/css"  href="style.css">
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
-  <script src="ui-bootstrap-tpls-2.1.4.min.js"></script>
-  <!-- google maps -->
-  <script src="http://maps.googleapis.com/maps/api/js?sensor=false&language=en"></script>
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+    <script src="ui-bootstrap-tpls-2.1.4.min.js"></script>
+  </head>
+  <body ng-app="myApp" ng-controller="myCtrl">
+    <ng-view></ng-view>
+    <!-- Script -->
+    <script src="app.js"></script>
 
-<body ng-app="myApp" ng-controller="myCtrl">
-  <div class="header">
-  </div>
-  <div class="jumbotron">
-
-    <!-- menu Bar and logo -->
-    <div class="row logoBar">
-      <div class="col-xs-6">
-        <span class="dropdown" uib-dropdown on-toggle="toggled(open)">
-          <a href id="simple-dropdown" uib-dropdown-toggle>
-            Menu
-          </a>
-          <ul class="dropdown-menu" uib-dropdown-menu aria-labelledby="simple-dropdown">
-            <li> one</li>
-            <li>two</li>
-          </ul>
-        </span>
-
-      </div>
-      <div class="col-xs-6">
-        <a href="#"><img src="img/Spotts.png"></a>
-      </div>
-    </div>
-
-    <!-- main links seciton -->
-    <ng-view autoscroll="true"></ng-view>
-
-    <div class="footer">
-    </div>
-
-  </div>
-
-  <!-- Scripts -->
-  <script src="app.js"></script>
-</body>
+  </body>
 </html>
